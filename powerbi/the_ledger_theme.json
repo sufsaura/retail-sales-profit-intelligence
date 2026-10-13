@@ -1,0 +1,61 @@
+{
+  "name": "The Ledger — Retail Profit Intelligence",
+  "dataColors": [
+    "#C9762C",
+    "#4C8C86",
+    "#B8A382",
+    "#5B7C99",
+    "#7C8B5D",
+    "#A85751",
+    "#6B6F76",
+    "#D9B36C"
+  ],
+  "background": "#0B0C10",
+  "foreground": "#E8E6E1",
+  "tableAccent": "#2A2D35",
+  "good": "#C9762C",
+  "bad": "#A23E33",
+  "neutral": "#6B6F76",
+  "maximum": "#C9762C",
+  "center": "#4C8C86",
+  "minimum": "#16181D",
+  "null": "#2A2D35",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#16181D" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#2A2D35" } }, "radius": 0 }],
+        "dropShadow": [{ "show": false }],
+        "outline": [{ "show": false }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#9CA0A8" } }, "fontSize": 11, "fontFamily": "Segoe UI" }],
+        "categoryLabels": [{ "fontFamily": "Space Grotesk" }]
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontFace": "Space Grotesk",
+      "color": "#E8E6E1",
+      "fontSize": 16
+    },
+    "header": {
+      "fontFace": "Space Grotesk",
+      "color": "#E8E6E1",
+      "fontSize": 13
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#9CA0A8",
+      "fontSize": 10
+    },
+    "callout": {
+      "fontFace": "JetBrains Mono",
+      "color": "#C9762C",
+      "fontSize": 32
+    }
+  }
+}
